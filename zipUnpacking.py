@@ -50,9 +50,9 @@ print(*z1)
 # Re-create a zip object from mutants and powers: z1
 z1 = zip(mutants, powers)
 
-# 'Unzip' the tuples in z1 by unpacking with * and zip(): result1, result2
+# 'Unzip' the tuples in z1 by unpacking with * and zip(): result1, result2, they are tuples
 result1, result2 = zip(*z1)
 
 # Check if unpacked tuples are equivalent to original tuples
-print(result1 == mutants)
-print(result2 == powers)
+print(list(result1) == mutants)
+print(list(result2) == powers)
