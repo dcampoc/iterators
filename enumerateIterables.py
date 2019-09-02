@@ -13,7 +13,7 @@ mutants = ['charles xavier',
             'kitty pryde']
 
 # Create a list of tuples: mutant_list
-mutant_list = enumerate(mutants)
+mutant_list = list(enumerate(mutants))
 
 # Print the list of tuples
 print(mutant_list)
