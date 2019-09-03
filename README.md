@@ -1,2 +1,2 @@
-# iterators
-Examples of iterators and iterables are provided
+# iterators and generators (Big data analysis)
+Examples of iterators, iterables and generators are provided
